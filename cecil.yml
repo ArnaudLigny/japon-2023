@@ -1,0 +1,55 @@
+title: "Japon 2023"
+description: "Voyage au Japon en 2023."
+baseurl: https://japon-2023.netlify.app/
+author:
+  name: "Arnaud Ligny"
+  url: https://ligny.fr
+
+photo:
+  style:
+    color:
+      background: "black"
+      text: "white"
+    img:
+      height: 300px
+      margin: 2px
+  sort: asc
+  size:
+    thumbnail: 640
+    full: 1920
+  placeholder: image # image, color or false
+
+photoswipe:
+  core:
+    js: https://raw.githubusercontent.com/dimsemenov/PhotoSwipe/master/dist/photoswipe.esm.js
+    css: https://raw.githubusercontent.com/dimsemenov/PhotoSwipe/master/dist/photoswipe.css
+  lightbox:
+    js: https://raw.githubusercontent.com/dimsemenov/PhotoSwipe/master/dist/photoswipe-lightbox.esm.js
+  caption:
+    js: https://raw.githubusercontent.com/dimsemenov/photoswipe-dynamic-caption-plugin/main/photoswipe-dynamic-caption-plugin.esm.js
+    css: https://raw.githubusercontent.com/dimsemenov/photoswipe-dynamic-caption-plugin/main/photoswipe-dynamic-caption-plugin.css
+
+output:
+  pagetypeformats:
+    homepage: html
+defaultpages:
+  sitemap:
+    published: false
+  xsl/atom:
+    published: false
+  xsl/rss:
+    published: false
+static:
+  load: true
+metatags:
+  jsonld:
+    enabled: true
+assets:
+  images:
+    optimize:
+      enabled: true
+    quality: 75
+    responsive:
+      enabled: true
+    webp:
+      enabled: true
