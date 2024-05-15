@@ -2,6 +2,8 @@
 
 _Photo Stream_ is a self hosted static website for your photos, with really goods loading performances, powered by [Cecil](https://cecil.app).
 
+![Screenshot](/docs/screenshot.png)
+
 Demo: <https://photo-stream-demo.cecil.app> (hosted by [Netlify](https://www.netlify.com) and fed by [Unsplash](https://unsplash.com)).
 
 ## Features
@@ -16,9 +18,9 @@ Demo: <https://photo-stream-demo.cecil.app> (hosted by [Netlify](https://www.net
 
 ## Install
 
-> PHP 7.4+ and [Cecil](https://cecil.app/download/) 7.34+ are required.
+> PHP 8.1+ and [Cecil](https://cecil.app/download/) 8.0+ are required.
 
-First you should clone or download the [Git repository](https://github.com/Cecilapp/photo-stream.git).
+First you should clone or download the [Git repository](https://github.com/Cecilapp/photo-stream.git), or run `composer create-project cecil/photo-stream myproject`.
 
 The repository come with a default version of `cecil.phar`, so you can you use it immediately, or you can download the latest release throught the following command:
 
